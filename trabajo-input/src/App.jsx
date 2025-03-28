@@ -1,14 +1,20 @@
 import './App.css'
 import Calculadora from './components/Calculadora';
+import Todo from './components/Todo';
 
 
 function App() {
   
   return (
     <>
-    <div className="App">
+
+    <h1>Calculadora</h1>
       <Calculadora />
-    </div>
+      <br />
+      <br />
+      <h1>Todo list</h1>
+      <Todo/>
+   
       
     </>
   )
